@@ -1,50 +1,45 @@
-#title {
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
-    font-family: copperplate;
-    font-size: 5em;
-    margin-top: 1rem;
+    background-color: #6598CB;
+}
+
+#title {
+    font-size: 3em;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    color: #011042;
 }
 
 #container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
 }
 
-.piko-card {
-    flex-basis: 25%;
-    margin: 3em;
+.pikomon {
+    background: #03269A;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: left;
 }
 
-.piko-img {
+.pikomon img {
     width: 100%;
-    border-radius: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.piko-info {
-    padding-left: 1.25rem;
-}
-
-.info-text {
-    font-family: monospace;
-    font-size: 1rem;
-}
-
-.piko-name {
-    font-family: "copperplate", fantasy;
+.pikomon h2 {
+    margin: 10px 0;
     font-size: 1.5em;
+    color: #5EB0C8;
 }
 
-.piko-abilities {
-
-}
-
-.piko-category {
-
-}
-
-.piko-weakness {
-
+.pikomon p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #5EB0C8;
 }
